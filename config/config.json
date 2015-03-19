@@ -13,14 +13,5 @@
     "databaseConfig" : {
         "host" : "127.0.0.1",
         "database" : "testWeb"
-    },
-    "middleware" : {
-        "router" : {
-            "module" : {
-                "arguments" : [{
-                    "directory" : "path:./controllers"
-                }]
-            }
-        }
     }
 }
