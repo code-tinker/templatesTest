@@ -1,0 +1,26 @@
+{
+    "express" : {
+        "view cache" : true,
+        "view engine" : "tpl",
+        "views" : "path:./public/templates"
+    },
+    "view engines" : {
+        "tpl":{
+            "module" : "templates.js",
+            "renderer" : "__express"
+        }
+    },
+    "databaseConfig" : {
+        "host" : "127.0.0.1",
+        "database" : "testWeb"
+    },
+    "middleware" : {
+        "router" : {
+            "module" : {
+                "arguments" : [{
+                    "directory" : "path:./controllers"
+                }]
+            }
+        }
+    }
+}

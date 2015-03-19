@@ -1,0 +1,17 @@
+{
+    "title": "pad淘宝项目数据接口集合定义",
+    "version": "1.0.0",
+    "engine": "mockjs",
+    "rulebase": "./interfaceRules/",
+    "status": "online",
+    "interfaces": [ {
+        "name": "主搜索接口",
+        "id": "Search.getItems",
+        "urls": {
+            "online": "http://10.88.115.191:8083/rap/mockjsdata/1/queryNAV?curpage=&fundtype=&pagelines=&fundCode=&enddate=&startdate="
+        },
+        "status" : "online"
+        
+    }]
+    
+}
