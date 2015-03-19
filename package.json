@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "![](https://sourcegraph.com/api/repos/github.com/thx/RAP/.counters/views-24h.png) * [Official Site 官网](http://thx.github.io/RAP) * [Wiki](http://github.com/thx/RAP/wiki)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "maven@10.88.115.190:~/git-all/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "express": "^4.12.2",
+    "kraken-js": "^1.0.5",
+    "templates.js": "^0.1.29",
+    "which": "^1.0.9"
+  }
+}
